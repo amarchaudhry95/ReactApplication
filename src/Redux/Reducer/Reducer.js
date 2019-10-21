@@ -10,7 +10,7 @@ function rootReducer(state = initialState, action) {
       for (let i = 0; i < data.length; i++) {
         let company = data[i][0];
         let price = data[i][1];
-        if (shares[company] != undefined) {
+        if (shares[company] !== undefined) {
           if (price > shares[company].price) {
             shares[company]["color"] = 1;
           } else if (price < shares[company].price) {
