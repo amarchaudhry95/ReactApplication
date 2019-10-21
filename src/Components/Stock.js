@@ -11,7 +11,7 @@ const Stock = shares => {
 
   return (
     <div>
-      <h1 id="title">Share Market</h1>
+      <h1 id="title">Share Market World</h1>
       <table id="sharesTable">
         <thead>
           <TableHeader />
